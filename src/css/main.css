@@ -1,0 +1,134 @@
+* {
+  font-family: "Segoe UI";
+}
+
+.header {
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.imgHeader {
+  border-radius: 25px;
+}
+
+a.link:link,
+a.link:visited {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+a.link:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  font-weight: bold;
+}
+
+.tabs {
+  margin-top: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+a.linkTabs:link,
+a.linkTabs:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a.linkTabs:hover {
+  color: blue;
+}
+
+.typeTabs {
+  display: inline-block;
+  background-color: orange;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.cardComp{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.hrCardComp{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.titleCardComp{
+    font-weight: bold;
+    display: inline-block;
+}
+
+hr.titleHrCardComp{
+    border: 3px solid blue;
+    border-radius: 2px;
+    margin-bottom: 50px;
+}
+
+a.linkCardComp:link,
+a.linkCardComp:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a.linkCardComp:hover {
+  color: blue;
+}
+
+.titleDataPendidikan{
+  font-weight: bold;
+  text-align: center;
+}
+
+hr.titleHrDataPendidikan{
+  border: 3px solid blue;
+  border-radius: 2px;
+  margin-left: 450px;
+  margin-right: 450px;
+}
+
+.DetailDataPendidikanComp{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px; 
+}
+
+.logoFooter{
+  height: 110px;
+}
+
+.logoIkutiKamiFooter{
+  height: 30px;
+  float: left;
+  margin: 10px;
+}
+
+footer{
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  background-color: #0F52BA;
+  padding: 100px;
+}
+
+.ikutiKami{
+  margin-left: 500px;
+}
+
+a.linkDetailDataPendidikanComp:link,
+a.linkDetailDataPendidikanComp:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a.linkDetailDataPendidikanComp:hover {
+  color: blue;
+}
