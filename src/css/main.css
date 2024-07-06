@@ -132,3 +132,167 @@ a.linkDetailDataPendidikanComp:visited {
 a.linkDetailDataPendidikanComp:hover {
   color: blue;
 }
+
+.card-img-custom {
+  width: 100%;
+  height: 200px; /* Atur tinggi sesuai kebutuhan */
+  object-fit: cover; /* Untuk memastikan gambar menyesuaikan tanpa mengubah rasio aspek */
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between; /* Menyebarkan elemen ke kiri dan kanan */
+  align-items: center;
+  background-color: #888888; /* Background-color abu-abu */
+  color: white;
+  padding: 20px 50px; /* Menambahkan padding di seluruh footer */
+  flex-wrap: wrap; /* Memungkinkan elemen membungkus pada layar lebih kecil */
+  position: relative; /* Membuat posisi relatif untuk penempatan elemen */
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  padding: 10px; /* Menambahkan padding pada bagian kiri */
+}
+
+.footer-left h4 {
+  margin-left: 10px;
+}
+
+.footer-right {
+  text-align: right;
+  padding: 10px; /* Menambahkan padding pada bagian kanan */
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.footer-center {
+  position: absolute; /* Menggunakan posisi absolut untuk teks hak cipta */
+  bottom: 10px; /* Jarak dari bawah footer */
+  left: 50%; /* Pusatkan secara horizontal */
+  transform: translateX(-50%); /* Koreksi untuk benar-benar memusatkan */
+  text-align: center; /* Pusatkan teks */
+  width: 100%; /* Lebar penuh untuk penempatan tepat */
+}
+
+.logoFooter {
+  width: 120px;
+  height: 120px;
+}
+
+.logoIkutiKamiFooter {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px; /* Menyesuaikan padding untuk layar lebih kecil */
+  }
+
+  .footer-left, .footer-right {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .footer-left {
+    justify-content: center;
+  }
+
+  .footer-left h4 {
+    margin-left: 0;
+  }
+
+  .social-media-icons {
+    justify-content: center;
+  }
+
+  .logoIkutiKamiFooter {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer-center {
+    position: static; /* Membuat posisi statis untuk layar lebih kecil */
+    transform: none;
+    margin-top: 20px;
+  }
+}
+
+.info-section {
+  background-color: #f4f9ff; /* Background color of the section */
+  padding: 40px 70px;
+}
+
+.info-text {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.info-text h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+.info-text h2 {
+  font-size: 1.5rem;
+  color: #2980b9;
+}
+
+.info-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.info-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.info-steps {
+  background-color: #e8f8ff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.info-steps ol {
+  padding-left: 20px;
+  list-style-type: decimal;
+}
+
+.info-steps li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.info-note {
+  background-color: #d0eaff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .info-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-steps {
+    margin-top: 20px;
+  }
+}

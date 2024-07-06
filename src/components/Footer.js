@@ -2,27 +2,42 @@ import React from "react";
 
 function Footer() {
   return (
-    <div>
-      <footer>
-        <div>
-          <img className="logoFooter" src="/logo/logoFooter.png" />
+    <footer className="footer">
+      <div className="footer-left">
+        <img
+          className="logoFooter"
+          src={require("../assets/img/navbar/logo_navbar.png")}
+          alt="Logo"
+        />
+        <h4>CEGAH BANJIR</h4>
+      </div>
+      <div className="footer-right">
+        <h4>Ikuti Kami</h4>
+        <div className="social-media-icons">
+          <img
+            className="logoIkutiKamiFooter"
+            src="/logo/LogoFacebook.png"
+            alt="Facebook"
+          />
+          <img
+            className="logoIkutiKamiFooter"
+            src="/logo/LogoInstagram.png"
+            alt="Instagram"
+          />
+          <img
+            className="logoIkutiKamiFooter"
+            src="/logo/LogoTwitter.png"
+            alt="Twitter"
+          />
         </div>
-        <div>
-          <h4>Dinas  Pendidikan</h4>
-          <h5>Pemerintah Provinsi DKI Jakarta</h5>
-          <p>
-            Jln. Jendral Gatot Subroto, Kav. 40-41, Jakarta Selatan Telp. (021)
-            5255385
-          </p>
-        </div>
-        <div className="ikutiKami">
-          <h4>Ikuti Kami</h4>
-          <img className="logoIkutiKamiFooter" src="/logo/LogoFacebook.png" />
-          <img className="logoIkutiKamiFooter" src="/logo/LogoInstagram.png" />
-          <img className="logoIkutiKamiFooter" src="/logo/LogoTwitter.png" />
-        </div>
-      </footer>
-    </div>
+      </div>
+      <div className="footer-center">
+        <p>
+          Hak cipta © 2024. Seluruh hak cipta dilindungi
+          undang-undang
+        </p>
+      </div>
+    </footer>
   );
 }
 

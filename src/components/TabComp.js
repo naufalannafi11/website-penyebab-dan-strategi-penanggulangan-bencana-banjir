@@ -17,32 +17,28 @@ function TabComp() {
             <div>
               <table>
                 <tr>
-                  <td rowspan="4">
+                  <td rowspan="5">
                     <Card style={{ width: "50rem" }}>
                       <Card.Img
                         variant="top"
-                        src={require("../assets/img/tabs/imgTabs.jpeg")}
+                        src={require("../assets/img/header/header1.jpg")}
                       />
                       <Card.Body>
                         <Card.Text>
-                          <div className="typeTabs">Regulasi Dinas</div>
+                          <div className="typeTabs">Berita</div>
                         </Card.Text>
                         <Card.Title>
                           <a className="linkTabs" href="#">
-                            SURAT EDARAN NOMOR E-0017/SE/2024 TENTANG MEKANISME
-                            KELULUSAN PESERTA DIDIK JENJANG SD/PAKET A/SDLB,
-                            SMP/PAKET B/SMPLB, SMA/PAKET C/SMALB DAN SMK TAHUN
-                            PELAJARAN 2023/2024
+                            Pembuatan Saluran Air di Gang Saalih Rampung
                           </a>
                         </Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">
-                          30 April 2024
+                          23 Apr 2024 | 10:52 WIB
                         </Card.Subtitle>
                         <Card.Text>
-                          SURAT EDARAN NOMOR E-0017/SE/2024 TENTANG MEKANISME
-                          KELULUSAN PESERTA DIDIK JENJANG SD/PAKET A/SDLB,
-                          SMP/PAKET B/SMPLB, SMA/PAKET C/SMALB DAN SMK TAHUN
-                          PELAJARAN 2023/2024 Dapat di unduh disini
+                          Pembuatan saluran air baru di Gang Saalih, Jalan Pasir
+                          II, RT 03/06, Kelurahan Ciganjur, Kecamatan Jagakarsa,
+                          Jakarta
                         </Card.Text>
                         <Card.Link href="#">Read More ...</Card.Link>
                         <Card.Text></Card.Text>
@@ -53,18 +49,16 @@ function TabComp() {
                     <Card style={{ width: "32rem" }}>
                       <Card.Body>
                         <Card.Text>
-                          <div className="typeTabs">Regulasi Dinas</div>
+                          <div className="typeTabs">Berita</div>
                         </Card.Text>
                         <Card.Title>
                           <a className="linkTabs" href="#">
-                            SURAT EDARAN NOMOR E-0017/SE/2024 TENTANG MEKANISME
-                            KELULUSAN PESERTA DIDIK JENJANG SD/PAKET A/SDLB,
-                            SMP/PAKET B/SMPLB, SMA/PAKET C/SMALB DAN SMK TAHUN
-                            PELAJARAN 2023/2024
+                            Pj Gubernur Heru Pastikan Peralatan di Rumah Pompa
+                            Ancol Berjalan Optimal
                           </a>
                         </Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">
-                          30 April 2024
+                          01 Mar 2024 | 10:20 WIB
                         </Card.Subtitle>
                       </Card.Body>
                     </Card>
@@ -74,19 +68,15 @@ function TabComp() {
                   <Card style={{ width: "32rem" }}>
                     <Card.Body>
                       <Card.Text>
-                        <div className="typeTabs">
-                          Berita Bidang, Sudin dan UPT
-                        </div>
+                        <div className="typeTabs">Berita</div>
                       </Card.Text>
                       <Card.Title>
                         <a className="linkTabs" href="#">
-                          PEMBUKAAN KEGIATAN PELATIHAN PENDIDIK, TENAGA
-                          KEPENDIDIKAN DAN PESERTA DIDIK SMK DI PUSAT PELATIHAN
-                          DAN PENGEMBANGAN PENDIDIKAN JAKARTA BARAT
+                          Oranye Tangani Genangan di Jalan Yos Sudarso
                         </a>
                       </Card.Title>
                       <Card.Subtitle className="mb-2 text-muted">
-                        29 April 2024
+                        29 Feb 2024 | 10:23 WIB
                       </Card.Subtitle>
                     </Card.Body>
                   </Card>
@@ -96,18 +86,16 @@ function TabComp() {
                     <Card style={{ width: "32rem" }}>
                       <Card.Body>
                         <Card.Text>
-                          <div className="typeTabs">Regulasi Dinas</div>
+                          <div className="typeTabs">Berita</div>
                         </Card.Text>
                         <Card.Title>
                           <a className="linkTabs" href="#">
-                            SURAT EDARAN NOMOR E-0014/SE/2024 TENTANG
-                            PENYELENGGARAAN UPACARA PERINGATAN HARI OTONOMI
-                            DAERAH XXVIII TAHUN 2024 DI LINGKUNGAN DINAS
-                            PENDIDIKAN PROVINSI DKI JAKARTA
+                            Hujan Berintensitas Ringan Hingga Sedang Guyur
+                            Jakarta Hari Ini
                           </a>
                         </Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">
-                          24 April 2024
+                          29 Feb 2024 | 08:08 WIB
                         </Card.Subtitle>
                       </Card.Body>
                     </Card>
@@ -118,17 +106,35 @@ function TabComp() {
                     <Card style={{ width: "32rem" }}>
                       <Card.Body>
                         <Card.Text>
-                          <div className="typeTabs">Regulasi Dinas</div>
+                          <div className="typeTabs">Berita</div>
                         </Card.Text>
                         <Card.Title>
                           <a className="linkTabs" href="#">
-                            SURAT EDARAN NOMOR E-0013/SE/2024 TENTANG PENGGUNAAN
-                            PAKAIAN SERAGAM BATIK KORPRI DALAM RANGKA PERINGATAN
-                            HARI OTONOMI DAERAH TAHUN 2024
+                            Genangan pada Tiga Lokasi di Jaktim Berhasil
+                            Ditangani
                           </a>
                         </Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">
-                          24 April 2024
+                          15 Feb 2024 | 10:11 WIB
+                        </Card.Subtitle>
+                      </Card.Body>
+                    </Card>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <Card style={{ width: "32rem" }}>
+                      <Card.Body>
+                        <Card.Text>
+                          <div className="typeTabs">Berita</div>
+                        </Card.Text>
+                        <Card.Title>
+                          <a className="linkTabs" href="#">
+                            BMKG Prediksi Hujan Basahi Jakarta Hari Ini
+                          </a>
+                        </Card.Title>
+                        <Card.Subtitle className="mb-2 text-muted">
+                          15 Feb 2024 | 10:00 WIB
                         </Card.Subtitle>
                       </Card.Body>
                     </Card>
@@ -136,130 +142,6 @@ function TabComp() {
                 </tr>
               </table>
             </div>
-          </div>
-        </Tab>
-        <Tab eventKey="profile" title="Regulasi">
-          <div>
-            <table>
-              <tr>
-                <td rowspan="4">
-                  <Card style={{ width: "50rem" }}>
-                    <Card.Img
-                      variant="top"
-                      src={require("../assets/img/tabs/imgTabs.jpeg")}
-                    />
-                    <Card.Body>
-                      <Card.Text>
-                        <div className="typeTabs">Regulasi Dinas</div>
-                      </Card.Text>
-                      <Card.Title>
-                        <a className="linkTabs" href="#">
-                          SURAT EDARAN NOMOR E-0017/SE/2024 TENTANG MEKANISME
-                          KELULUSAN PESERTA DIDIK JENJANG SD/PAKET A/SDLB,
-                          SMP/PAKET B/SMPLB, SMA/PAKET C/SMALB DAN SMK TAHUN
-                          PELAJARAN 2023/2024
-                        </a>
-                      </Card.Title>
-                      <Card.Subtitle className="mb-2 text-muted">
-                        30 April 2024
-                      </Card.Subtitle>
-                      <Card.Text>
-                        SURAT EDARAN NOMOR E-0017/SE/2024 TENTANG MEKANISME
-                        KELULUSAN PESERTA DIDIK JENJANG SD/PAKET A/SDLB,
-                        SMP/PAKET B/SMPLB, SMA/PAKET C/SMALB DAN SMK TAHUN
-                        PELAJARAN 2023/2024 Dapat di unduh disini
-                      </Card.Text>
-                      <Card.Link href="#">Read More ...</Card.Link>
-                      <Card.Text></Card.Text>
-                    </Card.Body>
-                  </Card>
-                </td>
-                <td>
-                  <Card style={{ width: "32rem" }}>
-                    <Card.Body>
-                      <Card.Text>
-                        <div className="typeTabs">Regulasi Dinas</div>
-                      </Card.Text>
-                      <Card.Title>
-                        <a className="linkTabs" href="#">
-                          SURAT EDARAN NOMOR E-0017/SE/2024 TENTANG MEKANISME
-                          KELULUSAN PESERTA DIDIK JENJANG SD/PAKET A/SDLB,
-                          SMP/PAKET B/SMPLB, SMA/PAKET C/SMALB DAN SMK TAHUN
-                          PELAJARAN 2023/2024
-                        </a>
-                      </Card.Title>
-                      <Card.Subtitle className="mb-2 text-muted">
-                        30 April 2024
-                      </Card.Subtitle>
-                    </Card.Body>
-                  </Card>
-                </td>
-              </tr>
-              <td>
-                <Card style={{ width: "32rem" }}>
-                  <Card.Body>
-                    <Card.Text>
-                      <div className="typeTabs">
-                        Berita Bidang, Sudin dan UPT
-                      </div>
-                    </Card.Text>
-                    <Card.Title>
-                      <a className="linkTabs" href="#">
-                        SURAT EDARAN NOMOR E-0005/SE/2024 TENTANG KEGIATAN
-                        BELAJAR MENGAJAR SELAMA BULAN SUCI RAMADHAN TAHUN 2024
-                        M/ 1445 H
-                      </a>
-                    </Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">
-                      8 Maret 2024
-                    </Card.Subtitle>
-                  </Card.Body>
-                </Card>
-              </td>
-              <tr>
-                <td>
-                  <Card style={{ width: "32rem" }}>
-                    <Card.Body>
-                      <Card.Text>
-                        <div className="typeTabs">Regulasi Dinas</div>
-                      </Card.Text>
-                      <Card.Title>
-                        <a className="linkTabs" href="#">
-                          SURAT EDARAN NOMOR E-0014/SE/2024 TENTANG
-                          PENYELENGGARAAN UPACARA PERINGATAN HARI OTONOMI DAERAH
-                          XXVIII TAHUN 2024 DI LINGKUNGAN DINAS PENDIDIKAN
-                          PROVINSI DKI JAKARTA
-                        </a>
-                      </Card.Title>
-                      <Card.Subtitle className="mb-2 text-muted">
-                        24 April 2024
-                      </Card.Subtitle>
-                    </Card.Body>
-                  </Card>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <Card style={{ width: "32rem" }}>
-                    <Card.Body>
-                      <Card.Text>
-                        <div className="typeTabs">Regulasi Dinas</div>
-                      </Card.Text>
-                      <Card.Title>
-                        <a className="linkTabs" href="#">
-                          SURAT EDARAN NOMOR E-0013/SE/2024 TENTANG PENGGUNAAN
-                          PAKAIAN SERAGAM BATIK KORPRI DALAM RANGKA PERINGATAN
-                          HARI OTONOMI DAERAH TAHUN 2024
-                        </a>
-                      </Card.Title>
-                      <Card.Subtitle className="mb-2 text-muted">
-                        24 April 2024
-                      </Card.Subtitle>
-                    </Card.Body>
-                  </Card>
-                </td>
-              </tr>
-            </table>
           </div>
         </Tab>
       </Tabs>

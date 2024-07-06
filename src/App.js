@@ -1,7 +1,7 @@
 import "./App.css";
 import CardComp from "./components/CardComp";
-import DataPendidikanComp from "./components/DataPendidikanComp";
-import DetailDataPendidikanComp from "./components/DetailDataPendidikanComp";
+import DataBanjirComp from "./components/DataBanjirComp";
+import InfoSection from "./components/InfoSection";
 import Footer from "./components/Footer";
 import HeaderComp from "./components/HeaderComp";
 import { NavbarComp } from "./components/NavbarComp";
@@ -15,8 +15,8 @@ function App() {
       <HeaderComp />
       <TabComp />
       <CardComp />
-      <DataPendidikanComp />
-      <DetailDataPendidikanComp />
+      <DataBanjirComp />
+      <InfoSection />
       <Footer/>
     </div>
   );

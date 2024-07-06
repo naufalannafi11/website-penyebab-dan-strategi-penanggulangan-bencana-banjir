@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-function DataPendidikanComp() {
+function DataBanjirComp() {
   const settings = {
     dots: true,
     infinite: true,
@@ -41,7 +41,7 @@ function DataPendidikanComp() {
     <div className="w-3/4 m-auto">
       <div className="mt-20">
       <div className="titleDataPendidikan">
-        <h4>Data Pendidikan</h4>
+        <h4>Dapatkan informasi lengkap mengenai banjir jakarta di sini</h4>
         <hr className="titleHrDataPendidikan" />
       </div>
         <Slider {...settings}>
@@ -70,37 +70,25 @@ function DataPendidikanComp() {
 
 const data = [
   {
-    name: "RUMAH BELAJAR",
-    img: "/dataPendidikan/logo1.png",
+    name: "PANGGILAN DARURAT",
+    img: require("../assets/img/informasiLengkap/logo1.png"),
   },
   {
-    name: "BUKU SEKOLAH ELEKTRONIK",
-    img: "/dataPendidikan/logo2.png",
+    name: "INFO BANJIR",
+    img: require("../assets/img/informasiLengkap/logo2.png"),
   },
   {
-    name: "BEASISWA JAKARTA",
-    img: "/dataPendidikan/logo3.png",
+    name: "PETA BANJIR",
+    img: require("../assets/img/informasiLengkap/logo3.png"),
   },
   {
-    name: "NOMOR INDUK SISWA NASIONAL",
-    img: "/dataPendidikan/logo4.png",
+    name: "DATA",
+    img: require("../assets/img/informasiLengkap/logo4.png"),
   },
   {
-    name: "NOMOR POKOK SEKOLAH NASIONAL",
-    img: "/dataPendidikan/logo5.png",
-  },
-  {
-    name: "PORTAL BOS",
-    img: "/dataPendidikan/logo6.png",
-  },
-  {
-    name: "KARTU JAKARTA PINTAR",
-    img: "/dataPendidikan/logo7.jpg",
-  },
-  {
-    name: "PERPUSTAKAAN DIGITAL JAKARTA",
-    img: "/dataPendidikan/logo8.png",
+    name: "TANYA JAWAB",
+    img: require("../assets/img/informasiLengkap/logo5.png"),
   },
 ];
 
-export default DataPendidikanComp;
+export default DataBanjirComp;

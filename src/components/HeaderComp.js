@@ -14,8 +14,13 @@ function HeaderComp() {
           />
           <Carousel.Caption>
             <a className="link" href="#">
-              Data Pendidikan Tahun Pelajaran 2023/2024 januari
+              Pembuatan Saluran Air di Gang Saalih Rampung
             </a>
+            <p>
+              Pembuatan saluran air baru di Gang Saalih, Jalan Pasir II, RT
+              03/06, Kelurahan Ciganjur, Kecamatan Jagakarsa, Jakarta Selatan
+              sudah terselesaikan.
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -27,8 +32,33 @@ function HeaderComp() {
           />
           <Carousel.Caption>
             <a className="link" href="#">
-              Indikator Pendidikan dapat di unduh disini
+              Pj Gubernur Heru Pastikan Peralatan di Rumah Pompa Ancol Berjalan
+              Optimal
             </a>
+            <p>
+              Penjabat (Pj) Gubernur DKI Jakarta, Heru Budi Hartono meninjau
+              Rumah Pompa Air Ancol, Tanjung Priok, Jakarta Utara, pada Kamis
+              (29/2) sore.
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="imgHeader"
+            src={require("../assets/img/header/header3.jpg")}
+            alt="header 3"
+            width={1300}
+          />
+          <Carousel.Caption>
+            <a className="link" href="#">
+              Pasukan Oranye Tangani Genangan di Jalan Yos Sudarso
+            </a>
+            <p>
+              Sebanyak 10 petugas Penanganan Prasarana dan Sarana Umum (PPSU)
+              Kelurahan Kebon Bawang, Kecamatan Tanjung Priok dikerahkan untuk
+              mengatasi genangan yang terjadi di Jalan Yos Sudarso, tepat di
+              depan Kantor Wali Kota Jakarta Utara.
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

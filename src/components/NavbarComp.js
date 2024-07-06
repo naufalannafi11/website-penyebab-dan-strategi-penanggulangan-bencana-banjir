@@ -10,55 +10,48 @@ export const NavbarComp = () => {
     <div className="">
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#home" style={{ display: 'flex', alignItems: 'center' }}>
             <img
               src={require("../assets/img/navbar/logo_navbar.png")}
-              width="200"
-              height="40"
+              width="110"
+              height="110"
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
             />
+            {""}
+            <span style={{ marginLeft: '10px' }}>CEGAH BANJIR</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="#home">BERANDA</Nav.Link>
-              <NavDropdown title="PROFIL" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#">Visi Misi</NavDropdown.Item>
+              <Nav.Link href="#home">DATA</Nav.Link>
+              <Nav.Link href="#home">PANTAU BANJIR</Nav.Link>
+              <NavDropdown title="PETA" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#">
-                  Struktur Organisasi
-                </NavDropdown.Item>
-              </NavDropdown>
-              <NavDropdown title="PPDB" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#">Berita PPDB</NavDropdown.Item>
-                <NavDropdown.Item href="#">Infografis PPDB</NavDropdown.Item>
-              </NavDropdown>
-              <NavDropdown title="BERITA" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#">Berita Pendidikan</NavDropdown.Item>
-                <NavDropdown.Item href="#">
-                  Berita Dinas Pendidikan
+                  Peta Informasi Banjir
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#">
-                  Berita Pendidik dan Tenaga Kependidikan
+                  Peta Banjir Berdasarkan RT
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#">
-                  Berita Bidang, Sudin, UPT
+                  Peta Skenario Banjir
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#">Informasi</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#">Semua Informasi</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="#home">REGULASI</Nav.Link>
-              <Nav.Link href="#home">GALERI</Nav.Link>
-              <Nav.Link href="#home">INFORMASI</Nav.Link>
-              <NavDropdown title="APLIKASI" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#">Sekolah Kolaborasi</NavDropdown.Item>
-                <NavDropdown.Item href="#">Siap Belajar</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#">Daftar Aplikasi</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#">Dashboard</NavDropdown.Item>
+              <NavDropdown title="INFO BANJIR" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#">Tentang Banjir</NavDropdown.Item>
+                <NavDropdown.Item href="#">
+                  Data Banjir Lintas Tahun
+                </NavDropdown.Item>
               </NavDropdown>
+              <NavDropdown title="MEDIA" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#">Dokumen</NavDropdown.Item>
+                <NavDropdown.Item href="#">Infografik</NavDropdown.Item>
+                <NavDropdown.Item href="#">Berita</NavDropdown.Item>
+                <NavDropdown.Item href="#">Galeri</NavDropdown.Item>
+              </NavDropdown>
+              <Nav.Link href="#home">FAQ</Nav.Link>
+              <Nav.Link href="#home">KONTAK</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
