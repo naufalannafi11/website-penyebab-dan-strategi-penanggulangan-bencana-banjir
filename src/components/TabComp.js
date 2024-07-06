@@ -1,9 +1,21 @@
-import React from "react";
+import React, { useContext } from "react";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import Card from "react-bootstrap/Card";
+import { ThemeContext } from "../context/ThemeContext";
 
 function TabComp() {
+  const { theme } = useContext(ThemeContext);
+
+  const cardStyle = {
+    backgroundColor: theme === "light" ? "#fff" : "#444",
+    color: theme === "light" ? "#000" : "#fff",
+  };
+
+  const linkStyle = {
+    color: theme === "light" ? "#000" : "#fff",
+  };
+
   return (
     <div className="tabs">
       <Tabs
@@ -18,7 +30,7 @@ function TabComp() {
               <table>
                 <tr>
                   <td rowspan="5">
-                    <Card style={{ width: "50rem" }}>
+                    <Card style={{ width: "50rem", ...cardStyle }}>
                       <Card.Img
                         variant="top"
                         src={require("../assets/img/header/header1.jpg")}
@@ -28,7 +40,7 @@ function TabComp() {
                           <div className="typeTabs">Berita</div>
                         </Card.Text>
                         <Card.Title>
-                          <a className="linkTabs" href="#">
+                          <a className="linkTabs" href="#" style={linkStyle}>
                             Pembuatan Saluran Air di Gang Saalih Rampung
                           </a>
                         </Card.Title>
@@ -40,19 +52,20 @@ function TabComp() {
                           II, RT 03/06, Kelurahan Ciganjur, Kecamatan Jagakarsa,
                           Jakarta
                         </Card.Text>
-                        <Card.Link href="#">Read More ...</Card.Link>
-                        <Card.Text></Card.Text>
+                        <Card.Link href="#" style={linkStyle}>
+                          Read More ...
+                        </Card.Link>
                       </Card.Body>
                     </Card>
                   </td>
                   <td>
-                    <Card style={{ width: "32rem" }}>
+                    <Card style={{ width: "32rem", ...cardStyle }}>
                       <Card.Body>
                         <Card.Text>
                           <div className="typeTabs">Berita</div>
                         </Card.Text>
                         <Card.Title>
-                          <a className="linkTabs" href="#">
+                          <a className="linkTabs" href="#" style={linkStyle}>
                             Pj Gubernur Heru Pastikan Peralatan di Rumah Pompa
                             Ancol Berjalan Optimal
                           </a>
@@ -65,13 +78,13 @@ function TabComp() {
                   </td>
                 </tr>
                 <td>
-                  <Card style={{ width: "32rem" }}>
+                  <Card style={{ width: "32rem", ...cardStyle }}>
                     <Card.Body>
                       <Card.Text>
                         <div className="typeTabs">Berita</div>
                       </Card.Text>
                       <Card.Title>
-                        <a className="linkTabs" href="#">
+                        <a className="linkTabs" href="#" style={linkStyle}>
                           Oranye Tangani Genangan di Jalan Yos Sudarso
                         </a>
                       </Card.Title>
@@ -83,13 +96,13 @@ function TabComp() {
                 </td>
                 <tr>
                   <td>
-                    <Card style={{ width: "32rem" }}>
+                    <Card style={{ width: "32rem", ...cardStyle }}>
                       <Card.Body>
                         <Card.Text>
                           <div className="typeTabs">Berita</div>
                         </Card.Text>
                         <Card.Title>
-                          <a className="linkTabs" href="#">
+                          <a className="linkTabs" href="#" style={linkStyle}>
                             Hujan Berintensitas Ringan Hingga Sedang Guyur
                             Jakarta Hari Ini
                           </a>
@@ -103,13 +116,13 @@ function TabComp() {
                 </tr>
                 <tr>
                   <td>
-                    <Card style={{ width: "32rem" }}>
+                    <Card style={{ width: "32rem", ...cardStyle }}>
                       <Card.Body>
                         <Card.Text>
                           <div className="typeTabs">Berita</div>
                         </Card.Text>
                         <Card.Title>
-                          <a className="linkTabs" href="#">
+                          <a className="linkTabs" href="#" style={linkStyle}>
                             Genangan pada Tiga Lokasi di Jaktim Berhasil
                             Ditangani
                           </a>
@@ -123,13 +136,13 @@ function TabComp() {
                 </tr>
                 <tr>
                   <td>
-                    <Card style={{ width: "32rem" }}>
+                    <Card style={{ width: "32rem", ...cardStyle }}>
                       <Card.Body>
                         <Card.Text>
                           <div className="typeTabs">Berita</div>
                         </Card.Text>
                         <Card.Title>
-                          <a className="linkTabs" href="#">
+                          <a className="linkTabs" href="#" style={linkStyle}>
                             BMKG Prediksi Hujan Basahi Jakarta Hari Ini
                           </a>
                         </Card.Title>

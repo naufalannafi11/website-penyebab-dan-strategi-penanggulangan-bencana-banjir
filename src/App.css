@@ -36,3 +36,317 @@
     transform: rotate(360deg);
   }
 }
+
+.app {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.app.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.theme-toggle-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.app {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.app.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.theme-toggle-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.navbar.light {
+  background-color: #f8f9fa !important;
+}
+
+.navbar.dark {
+  background-color: #343a40 !important;
+}
+
+.navbar.light {
+  background-color: #f8f9fa !important;
+}
+
+.navbar.dark {
+  background-color: #343a40 !important;
+}
+
+.navbar .nav-link, .navbar .dropdown-item {
+  transition: color 0.3s;
+}
+
+.navbar.light .nav-link, .navbar.light .dropdown-item {
+  color: #000 !important;
+}
+
+.navbar.dark .nav-link, .navbar.dark .dropdown-item {
+  color: #fff !important;
+}
+
+.app {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.app.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.theme-toggle-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.navbar.light {
+  background-color: #f8f9fa !important;
+}
+
+.navbar.dark {
+  background-color: #343a40 !important;
+}
+
+.navbar .nav-link, .navbar .dropdown-item {
+  transition: color 0.3s;
+}
+
+.navbar.light .nav-link, .navbar.light .dropdown-item {
+  color: #000 !important;
+}
+
+.navbar.dark .nav-link, .navbar.dark .dropdown-item {
+  color: #fff !important;
+}
+
+.card {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.card.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.card.dark {
+  background-color: #444;
+  color: #fff;
+}
+
+.linkTabs {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.linkTabs.light {
+  color: #000;
+}
+
+.linkTabs.dark {
+  color: #fff;
+}
+
+.app {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.app.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.theme-toggle-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.navbar.light {
+  background-color: #f8f9fa !important;
+}
+
+.navbar.dark {
+  background-color: #343a40 !important;
+}
+
+.navbar .nav-link, .navbar .dropdown-item {
+  transition: color 0.3s;
+}
+
+.navbar.light .nav-link, .navbar.light .dropdown-item {
+  color: #000 !important;
+}
+
+.navbar.dark .nav-link, .navbar.dark .dropdown-item {
+  color: #fff !important;
+}
+
+.card {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.card.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.card.dark {
+  background-color: #444;
+  color: #fff;
+}
+
+.linkCardComp {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.linkCardComp.light {
+  color: #000;
+}
+
+.linkCardComp.dark {
+  color: #fff;
+}
+
+.text-muted {
+  transition: color 0.3s;
+}
+
+.info-section {
+  padding: 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.info-section.light {
+  background-color: #f9f9f9;
+  color: #000;
+}
+
+.info-section.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.info-text h1, .info-text h2 {
+  transition: color 0.3s;
+}
+
+.info-steps ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.info-steps li {
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+.info-note {
+  margin-top: 20px;
+  font-style: italic;
+  transition: color 0.3s;
+}
+
+.info-section {
+  padding: 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.info-section.light {
+  background-color: #f9f9f9;
+  color: #000;
+}
+
+.info-section.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.info-text h1, .info-text h2 {
+  transition: color 0.3s;
+}
+
+.info-steps ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.info-steps li {
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+.info-note {
+  margin-top: 20px;
+  font-style: italic;
+  transition: color 0.3s;
+}
+
+/* Kelas untuk mempertahankan warna teks */
+.light-text {
+  color: #000 !important;
+}
+
+/* Tambahan untuk slider */
+.slick-slider {
+  background-color: inherit;
+}
+
+.slick-slide {
+  padding: 0 10px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.slick-dots li button::before {
+  color: inherit !important;
+}
+
+/* Penyesuaian untuk tema gelap */
+.dark .slick-slide {
+  color: #fff;
+}
+
+.dark .slick-dots li button::before {
+  color: #fff !important;
+}
