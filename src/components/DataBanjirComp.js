@@ -50,7 +50,7 @@ function DataBanjirComp() {
     <div className="infromasiLengkap">
       <div className="mt-20">
         <div className="titleDataPendidikan">
-          <h4>Dapatkan informasi lengkap mengenai banjir jakarta di sini</h4>
+          <h4>Dapatkan informasi lengkap mengenai banjir di sini</h4>
           <hr className="titleHrDataPendidikan" />
         </div>
         <Slider {...settings} style={sliderStyle}>

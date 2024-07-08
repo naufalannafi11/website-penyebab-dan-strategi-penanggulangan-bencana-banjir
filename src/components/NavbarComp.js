@@ -29,7 +29,7 @@ export const NavbarComp = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="#home" style={linkStyle}>BERANDA</Nav.Link>
-              <Nav.Link href="#home" style={linkStyle}>DATA</Nav.Link>
+              <Nav.Link href="/data" style={linkStyle}>DATA</Nav.Link>
               <Nav.Link href="#home" style={linkStyle}>PANTAU BANJIR</Nav.Link>
               <NavDropdown title={<span style={linkStyle}>PETA</span>} id="basic-nav-dropdown" menuVariant={theme}>
                 <NavDropdown.Item href="#" style={linkStyle}>
