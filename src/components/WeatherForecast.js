@@ -28,6 +28,7 @@ function WeatherForecast() {
   };
 
   return (
+    <div className='weatherForecast'>
     <Container className="mt-4">
       <Row className="justify-content-center">
         <Col sm={8}>
@@ -68,6 +69,7 @@ function WeatherForecast() {
         </Col>
       </Row>
     </Container>
+    </div>
   );
 }
 

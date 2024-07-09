@@ -1,21 +1,17 @@
-import React, { useContext } from "react";
+import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import "bootstrap/dist/css/bootstrap.min.css";
-import { ThemeContext } from "../context/ThemeContext";
 
 export const NavbarComp = () => {
-  const { theme } = useContext(ThemeContext);
-
-  const linkStyle = { color: theme === 'light' ? '#000' : '#fff' };
-
   return (
     <div className="">
-      <Navbar expand="lg" className={`bg-${theme === 'light' ? 'light' : 'dark'}`}>
+      <Navbar expand="lg" className="bg-light">
         <Container>
-          <Navbar.Brand href="#home" style={{ display: 'flex', alignItems: 'center', color: theme === 'light' ? '#000' : '#fff' }}>
+          <Navbar.Brand href="#home" style={{ display: 'flex', alignItems: 'center', color: '#000' }}>
             <img
               src={require("../assets/img/navbar/logo_navbar.png")}
               width="110"
@@ -28,34 +24,17 @@ export const NavbarComp = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#home" style={linkStyle}>BERANDA</Nav.Link>
-              <Nav.Link href="/data" style={linkStyle}>DATA</Nav.Link>
-              <Nav.Link href="#home" style={linkStyle}>PANTAU BANJIR</Nav.Link>
-              <NavDropdown title={<span style={linkStyle}>PETA</span>} id="basic-nav-dropdown" menuVariant={theme}>
-                <NavDropdown.Item href="#" style={linkStyle}>
-                  Peta Informasi Banjir
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#" style={linkStyle}>
-                  Peta Banjir Berdasarkan RT
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#" style={linkStyle}>
-                  Peta Skenario Banjir
-                </NavDropdown.Item>
+              <Nav.Link as={Link} to="/" style={{ color: '#000' }}>BERANDA</Nav.Link>
+              <Nav.Link as={Link} to="/datapages" style={{ color: '#000' }}>DATA</Nav.Link>
+              <NavDropdown title={<span style={{ color: '#000' }}>INFO BANJIR</span>} id="basic-nav-dropdown">
+                <NavDropdown.Item href="/tentangbanjirjakartapages" style={{ color: '#000' }}>Tentang Banjir Jakarta</NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown title={<span style={linkStyle}>INFO BANJIR</span>} id="basic-nav-dropdown" menuVariant={theme}>
-                <NavDropdown.Item href="#" style={linkStyle}>Tentang Banjir</NavDropdown.Item>
-                <NavDropdown.Item href="#" style={linkStyle}>
-                  Data Banjir Lintas Tahun
-                </NavDropdown.Item>
+              <NavDropdown title={<span style={{ color: '#000' }}>MEDIA</span>} id="basic-nav-dropdown">
+                <NavDropdown.Item href="/dokumenpages" style={{ color: '#000' }}>Dokumen</NavDropdown.Item>
+                <NavDropdown.Item href="/infografikpages" style={{ color: '#000' }}>Infografik</NavDropdown.Item>
+                <NavDropdown.Item href="/beritapages" style={{ color: '#000' }}>Berita</NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown title={<span style={linkStyle}>MEDIA</span>} id="basic-nav-dropdown" menuVariant={theme}>
-                <NavDropdown.Item href="#" style={linkStyle}>Dokumen</NavDropdown.Item>
-                <NavDropdown.Item href="#" style={linkStyle}>Infografik</NavDropdown.Item>
-                <NavDropdown.Item href="#" style={linkStyle}>Berita</NavDropdown.Item>
-                <NavDropdown.Item href="#" style={linkStyle}>Galeri</NavDropdown.Item>
-              </NavDropdown>
-              <Nav.Link href="#home" style={linkStyle}>FAQ</Nav.Link>
-              <Nav.Link href="#home" style={linkStyle}>KONTAK</Nav.Link>
+              <Nav.Link href="/kontakpages" style={{ color: '#000' }}>KONTAK</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -63,3 +42,5 @@ export const NavbarComp = () => {
     </div>
   );
 };
+
+export default NavbarComp;

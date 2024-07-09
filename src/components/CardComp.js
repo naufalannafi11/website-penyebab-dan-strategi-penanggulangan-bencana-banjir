@@ -21,13 +21,6 @@ function CardComp() {
 
   return (
     <div className="cardComp">
-      <div className="hrCardComp">
-        <hr />
-      </div>
-      <div className="titleCardComp">
-        <h4>Infografik</h4>
-        <hr className="titleHrCardComp" />
-      </div>
       <CardGroup>
         <Card style={cardStyle}>
           <Card.Img

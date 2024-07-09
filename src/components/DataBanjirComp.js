@@ -47,7 +47,7 @@ function DataBanjirComp() {
   };
 
   return (
-    <div className="infromasiLengkap">
+    <div className="informasiLengkap">
       <div className="mt-20">
         <div className="titleDataPendidikan">
           <h4>Dapatkan informasi lengkap mengenai banjir di sini</h4>
@@ -57,7 +57,7 @@ function DataBanjirComp() {
           {data.map((d) => (
             <div
               key={d.name}
-              className={`bg-${theme === 'light' ? 'white' : 'black'} h-[450px] text-${theme === 'light' ? 'black' : 'white'} rounded-xl`}
+              className={`bg-${theme === 'light' ? 'white' : 'black'} h-[450px] text-${theme === 'light' ? 'black' : 'white'} rounded-xl border border-4 border-gray-300`}
             >
               <div className="h-56 bg-white flex justify-center items-center rounded-t-xl">
                 <img src={d.img} alt={d.name} />
@@ -65,7 +65,7 @@ function DataBanjirComp() {
 
               <div className="flex flex-col justify-center items-center gap-4 p-4">
                 <p className="text-xl font-semibold">{d.name}</p>
-                <button className={`bg-${theme === 'light' ? 'black' : 'white'} text-${theme === 'light' ? 'white' : 'black'} text-lg px-6 py-1 rounded-xl`}>
+                <button className="bg-black text-white text-lg px-6 py-1 rounded-xl">
                   Read More
                 </button>
               </div>
