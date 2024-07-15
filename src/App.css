@@ -350,3 +350,77 @@
 .dark .slick-dots li button::before {
   color: #fff !important;
 }
+
+.theme-toggle-btn {
+  background-color: transparent; /* Transparent background */
+  color: #000; /* Text color */
+  border: 2px solid #808080; /* Gray border to make it visible */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px 20px; /* Padding for the button */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+}
+
+.theme-toggle-btn:hover {
+  background-color: #808080; /* Gray background on hover */
+  color: white; /* White text on hover */
+}
+
+.dataPages {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.tentangBanjirJakartaPages {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 50px;
+}
+
+.theme-toggle-btn {
+  margin: 20px;
+}
+
+.accordion {
+  margin-top: 50px;
+}
+
+.dokumenPages {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 50px;
+}
+
+.infografikPages {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 50px;
+}
+
+.weatherForecast {
+  margin-top: 150px;
+}
+
+.beritaPages {
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 50px;
+}
+
+.py-4 {
+  margin: 100px;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.gy-4 > [class*="col-"] {
+  margin-top: 50px;
+}
+
+.informasiLengkap {
+  padding-left: 100px;
+  padding-right: 100px;
+}
